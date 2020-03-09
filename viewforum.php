@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
@@ -37,37 +37,36 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> '인기 주제',
+	'ANNOUNCEMENTS'			=> '공지',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> '포럼 권한',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
+	'ICON_ANNOUNCEMENT'		=> '공지',
+	'ICON_STICKY'			=> '고정',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> '이 포럼에 알림이 있습니다. 로그인해서 알아보세요.',
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MARK_TOPICS_READ'		=> '읽음으로 표시',
 
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to view or read topics within this forum.',
-	'NO_FORUMS_IN_CATEGORY'	=> 'This category has no forums.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NEW_POSTS_HOT'			=> '새 포스트 있음 [인기]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> '새 포스트 있음 [잠금]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> '새 포스트 없음 [인기]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> '새 포스트 없음 [잠금]',	// Not used anymore
+	'NO_READ_ACCESS'		=> '이 포럼의 주제 보기나 읽기 권한이 없습니다.',
+	'NO_FORUMS_IN_CATEGORY'	=> '이 카테고리에 포럼이 없습니다.',
+	'NO_UNREAD_POSTS_HOT'		=> '읽지 않는 포스트 없음 [인기]',
+	'NO_UNREAD_POSTS_LOCKED'	=> '읽지 않는 포스트 없음 [잠금]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> '잠금된 포럼',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> '이 포럼의 주제들이 읽음으로 표시됩니다.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> '읽지 않는 포스트 [인기]',
+	'UNREAD_POSTS_LOCKED'	=> '읽기 않는 포스트 [잠금]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> '포럼 보기',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topics',
+		1	=> '%d개 주제',
 	),
 ));

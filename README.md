@@ -9,3 +9,9 @@ Anyone interested in Korean translation could join us.
 # 에러 보고
 If you found any error in the translation. Please let me know via issue.
 통역 에러를 발생하면 이슈로 알려주세요ㅣ.
+
+# finished work / 완료된 작업
+## until 2020-03-09 / 2020-03-09 까지
+/
+...install.php
+...viewforum.php

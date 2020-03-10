@@ -14,3 +14,4 @@ If you found any error in the translation. Please let me know via issue.
 /root directory / 루투 디렉토리
 - install.php
 - viewforum.php
+- viewtopic.php
